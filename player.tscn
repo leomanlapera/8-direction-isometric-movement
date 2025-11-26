@@ -1043,7 +1043,7 @@ height = 20.0
 script = ExtResource("1_b26j0")
 agent = NodePath("NavigationAgent2D")
 anim_tree = NodePath("AnimationTree")
-speed = 100.0
+speed = 70.0
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_4flbx")

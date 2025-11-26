@@ -12,7 +12,7 @@ func _ready() -> void:
 
 func _unhandled_input(event: InputEvent) -> void:
 	if event is InputEventMouseButton:
-		if event.button_index == MouseButton.MOUSE_BUTTON_RIGHT:
+		if event.button_index == MouseButton.MOUSE_BUTTON_LEFT:
 			follow_mouse = event.pressed
 
 func _physics_process(_delta: float) -> void:
